@@ -1,0 +1,65 @@
+@media (max-width: 1536px) {
+	.output {
+		font-size: 21px;
+		width: 285px;
+	}
+	.nokia-keyboard-options-clear {
+		margin: 40px auto;
+		padding: 40px 30px 20px 50px;
+	}
+}
+@media (max-width: 1366px) {
+	.output {
+		font-size: 20px;
+		width: 265px;
+		padding: 19px 35px
+	}
+	.nokia-keyboard-options-clear {
+		margin: 40px auto;
+		padding: 40px 30px 20px 50px;
+	}
+}
+@media (max-width: 375px) {
+	.nokia {
+		height: 160vh;
+	}
+	.nokia-screen, .nokia-keyboard {
+  		height: 80vh;
+	}
+	.nokia-keyboard-options {
+		height: 24vh;
+	}
+	.nokia-keyboard-keys-row {
+		height: 11.2vh;
+	}
+	.output-wrapper {
+		height: 80vh;
+	}
+	.output {
+		font-size: 22px;
+		width: 280px;
+		padding: 19px 35px;
+		height: 34.4vh;
+		margin: 42.4vh auto 0;
+	}
+	.nokia-keyboard-options-clear {
+		margin: 40px auto;
+		padding: 40px 30px 20px 50px;
+	}
+}
+@media (min-height: 920px) {
+	.output {
+		width: 290px;
+	}
+}
+@media (min-height: 950px) {
+	.output {
+		width: 320px;
+	}
+}
+@media (min-height: 1080px) {
+	.output {
+		width: 330px;
+		font-size: 24px;
+	}
+}

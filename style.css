@@ -1,0 +1,96 @@
+@font-face {
+	font-family: nokia_font;
+	src: url('font/font.ttf');
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: nokia_font;
+}
+body {
+	background-image: url(backgound2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 2s ease;
+}
+.main {
+	width: 513px;
+	margin: 0 auto;
+}
+.nokia {
+	height: 100vh;
+	background-image: url(nokia.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat; 
+	display: flex;
+	flex-flow: column;
+}
+.nokia-screen, .nokia-keyboard {
+	height: 50vh;
+}
+.nokia-keyboard {
+	display: flex;
+	flex-flow: column;
+}
+.nokia-keyboard-options,.nokia-keyboard-keys-row {
+	margin: 0 15%;
+}
+.nokia-keyboard-options {
+	height: 15vh;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.nokia-keyboard-options-left, .nokia-keyboard-options-right {
+	flex: 0 50%;
+}
+.nokia-keyboard-options-clear {
+	width: 15px;
+	margin: 40px auto;
+	padding: 40px 30px 20px 50px;
+}
+.nokia-keyboard-options-up,.nokia-keyboard-options-down {
+	width: 10px;
+	padding: 30px;
+}
+.nokia-keyboard-options-up {
+	margin: 30px 10px 10px 80px;
+}
+.nokia-keyboard-options-down {
+	margin: -30px 0px 0px 10px;
+}
+.nokia-keyboard-keys {
+	display: flex;
+	flex-flow: column;
+}
+.nokia-keyboard-keys-row {
+	flex: 0 100%;
+	height: 7vh;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.nokia-keyboard-keys-row div {
+	flex: 0 33%;
+}
+.output-wrapper {
+	z-index: -10;
+	position: absolute;
+	height: 50vh;
+	width: 513px;
+}
+.output {
+	margin: 26.5vh auto 0;
+	width: 285px;
+	height: 21.5vh;
+	background-image: linear-gradient(#6DAA81,#69A67D);
+	padding: 23px 35px;
+	word-wrap: break-word;
+	font-size: 20px;
+	color: rgba(21, 24, 23, 0.8);
+}
+.letter {
+	background: rgba(21, 24, 23, 0.8);
+	color: #6DAA81;
+} 
