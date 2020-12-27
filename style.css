@@ -73,6 +73,7 @@ body {
 }
 .nokia-keyboard-keys-row div {
 	flex: 0 33%;
+	height: inherit;
 }
 .output-wrapper {
 	z-index: -10;
